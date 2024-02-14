@@ -1,4 +1,4 @@
-package hw4;
+package hw5;
 
 public class MyRectangle {
 //	請設計一個類別MyRectangle:

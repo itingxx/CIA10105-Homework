@@ -1,4 +1,4 @@
-package hw4;
+package hw5;
 
 public class MyRectangleMain {
 //	• 請另外建立一個MyRectangleMain類別,此類別只有main方法
