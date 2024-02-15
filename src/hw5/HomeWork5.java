@@ -1,38 +1,38 @@
 package hw5;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class HomeWork5 {
-//    public static void starSquare(int width, int height) {
-//        for (int i = 0; i < height; i++) {
-//            System.out.println();
-//            for (int j = 0; j < width; j++) {
-//                System.out.print("*");
-//            }
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("輸入寬及高");
-//
-//        int width, height;
-//
-//        while (true) {
-//            System.out.print("寬: ");
-//            width = sc.nextInt();
-//            System.out.print("高: ");
-//            height = sc.nextInt();
-//
-//            if (width > 0 && height > 0) {
-//                break;
-//            } else {
-//                System.out.println("請輸入正整數！");
-//            }
-//        }
-//
-//        starSquare(width, height);
-//    }
+    public static void starSquare(int width, int height) {
+        for (int i = 0; i < height; i++) {
+            System.out.println();
+            for (int j = 0; j < width; j++) {
+                System.out.print("*");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("輸入寬及高");
+
+        int width, height;
+
+        while (true) {
+            System.out.print("寬: ");
+            width = sc.nextInt();
+            System.out.print("高: ");
+            height = sc.nextInt();
+
+            if (width > 0 && height > 0) {
+                break;
+            } else {
+                System.out.println("請輸入正整數！");
+            }
+        }
+
+        starSquare(width, height);
+    }}
 //	請設計一個方法為randAvg(),從10個 0~100(含100)的整數亂數中取平均值並印出這10個亂數與平均值,如圖:
 //	public  void randAvg(){
 //		int[] array=new int[10];
@@ -87,20 +87,20 @@ public class HomeWork5 {
 //	身為程式設計師的你,收到一個任務,要幫系統的註冊新增驗證碼的功能,請設計一個方法
 //	genAuthCode(),當呼叫此方法時,會回傳一個8位數的驗證碼,此驗證碼內容包含了英文大小寫
 //	與數字的亂數組合,如圖:
-	public static String genAuthCode() {
-		String words="";
-		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-	  char[] password=new char[8];
-	  for(int i=0;i<password.length;i++) {
-		  password[i]=chars.charAt((int)(Math.random()*chars.length()));
-	  }
-	  for(int i=0;i<password.length;i++) {
-		  
-		  words +=password[i];
-	  }
-	  return words;
-	}
-	public static void main(String[] args) {
-		
-		System.out.println(genAuthCode());
-	}}
+//	public static String genAuthCode() {
+//		String words="";
+//		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//	  char[] password=new char[8];
+//	  for(int i=0;i<password.length;i++) {
+//		  password[i]=chars.charAt((int)(Math.random()*chars.length()));
+//	  }
+//	  for(int i=0;i<password.length;i++) {
+//		  
+//		  words +=password[i];
+//	  }
+//	  return words;
+//	}
+//	public static void main(String[] args) {
+//		
+//		System.out.println(genAuthCode());
+//	}}
