@@ -41,8 +41,8 @@ public class HomeWork_4 {
 //	                {70, 95, 90, 89, 90, 75}
 //	        };
 //
-//	        int[] arrNew = new int[8];
-//	        int[] New = {0, 0, 0, 0, 0, 0, 0, 0};
+//	        int[] arrnew = new int[8];
+//	        int[] new = {0, 0, 0, 0, 0, 0, 0, 0};
 //
 //	        // Find the maximum value in each column
 //	        for (int j = 0; j < 6; j++) {
@@ -52,21 +52,21 @@ public class HomeWork_4 {
 //	                    max = scores[i][j];
 //	                }
 //	            }
-//	            arrNew[j] = max;
+//	            arrnew[j] = max;
 //	        }
 //
-//	        // Count occurrences of the maximum value in each column for each student
+//	        
 //	        for (int j = 0; j < 6; j++) {
 //	            for (int i = 0; i < scores.length; i++) {
-//	                if (scores[i][j] == arrNew[j]) {
-//	                    New[i]++;
+//	                if (scores[i][j] == arrnew[j]) {
+//	                    new[i]++;
 //	                }
 //	            }
 //	        }
 //
-//	        // Print the counts for each student
+//	        
 //	        for (int k = 0; k < 8; k++) {
-//	            System.out.println("Student " + (k + 1) + ": " + New[k] + " times");
+//	            System.out.println((k + 1) + "號: " + new[k] + " times");
 //	        }
 //		請設計由鍵盤輸入三個整數,分別代表西元yyyy年,mm月,dd日,執行後會顯示是該年的第幾天
 //
