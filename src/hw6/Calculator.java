@@ -17,9 +17,7 @@ public void powerXY(int x, int y) throws CalException {
 		else if(y<0||x<0) {
 			throw new CalException("x的y次方結果不為整數");
 		}
-		else if(y<0||x<0) {
-			throw new CalException("x的y次方結果不為整數");
-		}
+	
 		
 		else{
 		int num=(int)Math.pow(x, y);
